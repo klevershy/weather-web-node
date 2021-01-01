@@ -1,0 +1,110 @@
+
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+h1{
+    color: orange;
+    font-size: 50px;
+}
+h2{
+    color: #0b7540;
+}
+h4{
+    color: gray;
+    opacity: .5;
+}
+p{
+    color: grey;
+   
+}
+.portrait{
+    border: green 1px solid;
+    width: 250px;   
+}
+.my-photo{
+    text-align: center;
+}
+/* help page */
+.help-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-content{
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    flex-grow: 1;
+}
+/* footer{
+    max-width: 100%;
+    width: 990px;
+    padding: 15px;
+    text-align: center;  
+    margin: 0 auto; 
+} */
+.footer{
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    width: 990px;
+   
+}
+.container a{
+    color: gray;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    transition: .5s ease;
+    
+}
+.container a:hover{
+    color: orange;
+}
+#year{
+    color: gray;
+    padding: 0 3px;
+}
+.inner-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+input{
+    padding:  8px;
+    background-color: linen;
+    border: 1px solid linen
+}
+input:focus{
+    outline: none;
+}
+.weather-Text{
+    color: powderblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+    padding:  8px;
+    margin-left: 10px;
+    background-color: gray;
+    color: powderblue;
+    font-weight: bold;
+}

@@ -91,9 +91,8 @@ input:focus{
     outline: none;
 }
 .weather-Text{
-    color: powderblue;
+    color: #0b7540;
     font-size: 16px;
-    font-weight: bold;
 }
 button{
     cursor: pointer;
@@ -102,4 +101,5 @@ button{
     background-color: gray;
     color: powderblue;
     font-weight: bold;
+    font-size: 18px;
 }

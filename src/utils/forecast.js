@@ -11,12 +11,13 @@ const forecast = (latitude,longitude,  callback)=>{
         }else{
             const temperature = body.current.temperature;
             const feelsLike= body.current.feelslike;
-            const location= body.location.region;
+            const location= body.location.country;
             const placeName= body.location.name;
             const weatherDesc = body.current.weather_descriptions[0]
-
+            const humidity = body.current.humidity
+          
             callback(undefined, {
-               message: `right now ${temperature} in ${placeName}, ${location}, but feels ${feelsLike}deg and it's ${weatherDesc}`
+               message: `Right now ${temperature} in ${placeName}, ${location}, but feels ${feelsLike}deg and it's ${weatherDesc} with ${humidity}% of humidity`
             })
         }
     })
